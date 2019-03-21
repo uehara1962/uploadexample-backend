@@ -63,7 +63,7 @@ app.use(
 // app.use(require("./routes"))
 app.use(routes)
 
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
 
 
 //mongodb+srv://deploy:<password>@cluster0-y4qus.mongodb.net/test?retryWrites=true
